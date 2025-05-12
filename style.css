@@ -15,12 +15,6 @@ body {
     line-height: 1.5;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-    padding: 20px;
-}
-
 /* Header styling */
 .header {
   display: flex;
@@ -60,23 +54,13 @@ body {
 .photo img {
   height: 20px;
   border-radius: 50%;
-  
-
 }
 
-.main {
+.container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  gap: 2rem;
-  height: 100vh;
-  padding: 2rem;
-  margin-top: 20px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
-
-
 /* Left card (image section) */
 .leftcard {
     display: flex;
@@ -119,17 +103,11 @@ body {
   border-color: #ff7d1b;
 }
 .rightcard {
- flex: 1;
-  max-width: 35%;
-  margin-left: auto; /* ⬅️ pushes it to the right */
-  padding: 2rem 0;
-  gap: 10px;
-  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  right: 1rem;
    
 }
-
-
-
 
 .toprightcard h1 {
   font-size: 14px;
